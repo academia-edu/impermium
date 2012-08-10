@@ -11,5 +11,6 @@ module Impermium
     include Comment
     include Connection
     include Listing
+    include GenericContent
   end
 end
