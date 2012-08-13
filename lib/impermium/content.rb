@@ -3,6 +3,7 @@ require "impermium/content/bookmark"
 require "impermium/content/comment"
 require "impermium/content/connection"
 require "impermium/content/listing"
+require "impermium/content/generic_content"
 
 module Impermium
   module Content
