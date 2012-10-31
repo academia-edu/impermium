@@ -1,5 +1,8 @@
 module Impermium
   module GenericContent
+
+    REPORTER_USER_TYPE_VALUES = ["ENDUSER", "MODERATOR"]
+
     def generic_content(content_id, user_id, content, options={}, &block)
       options.merge!(
 	      :content_id => content_id,
